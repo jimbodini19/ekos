@@ -2,14 +2,61 @@
   "runs": [
     {
       "date": "2026-06-04",
+      "time_pt": "2026-06-04 ~10:00 PDT",
+      "type": "scheduled",
+      "items": [
+        {
+          "slug": "all",
+          "label": "Confirmed",
+          "note": "Quiet run. All 12 sources match baselines captured earlier on June 4, 2026. No changes detected."
+        },
+        {
+          "slug": "ks-vol2",
+          "label": "Confirmed",
+          "note": "Enrichment: latest backer update identified as #23 'Fulfillment at 95%!!!' (June 1, 2026). Prior updates: #22 'Closing in on 70% Fulfilled!!' May 26, #21 'Fulfillment Underway!' May 21, #20 'Hard Covers Printed and on the Way!!' May 12. Topic is shipping/fulfillment, not creative news. Snapshot updated with update title."
+        },
+        {
+          "slug": "social",
+          "label": "Press/Unconfirmed",
+          "note": "X logged-out wall blocked timelines for @AspenComics and @Mythos_Studios. Bio reads only: AspenComics bio still references Fathom Timeline Omnibus KS (Feb), Mythos bio unchanged. Fallback searches surfaced nothing new."
+        },
+        {
+          "slug": "press",
+          "label": "Press/Unconfirmed",
+          "note": "No new press in last 14 days. Added thepopverse launch-scoop URL (older article) to press_seen to prevent resurfacing."
+        }
+      ]
+    },
+    {
+      "date": "2026-06-04",
       "time_pt": "2026-06-04 (second pass)",
       "type": "baseline-expansion",
       "items": [
-        {"slug": "ekos-auction", "label": "Confirmed", "note": "New source added. Baseline: auction.ekos.io shows Deployment Paused (Vercel). Site coming back online will be flagged"},
-        {"slug": "aspen-news", "label": "Confirmed", "note": "New source added. Currently mirrors homepage content; divergence is a signal"},
-        {"slug": "store-ekos-v1-hc", "label": "Confirmed", "note": "New Collector Watch source. Ekos Vol 1 Hardcover $50.00, In Stock"},
-        {"slug": "store-ekos-genesis-hc", "label": "Confirmed", "note": "New Collector Watch source. Ekos Genesis Art Collection Exclusive Hardcover $150.00, In Stock"},
-        {"slug": "ekos-home", "label": "Confirmed", "note": "Source retired: client-rendered gallery with no extractable text, replaced by auction.ekos.io"}
+        {
+          "slug": "ekos-auction",
+          "label": "Confirmed",
+          "note": "New source added. Baseline: auction.ekos.io shows Deployment Paused (Vercel). Site coming back online will be flagged"
+        },
+        {
+          "slug": "aspen-news",
+          "label": "Confirmed",
+          "note": "New source added. Currently mirrors homepage content; divergence is a signal"
+        },
+        {
+          "slug": "store-ekos-v1-hc",
+          "label": "Confirmed",
+          "note": "New Collector Watch source. Ekos Vol 1 Hardcover $50.00, In Stock"
+        },
+        {
+          "slug": "store-ekos-genesis-hc",
+          "label": "Confirmed",
+          "note": "New Collector Watch source. Ekos Genesis Art Collection Exclusive Hardcover $150.00, In Stock"
+        },
+        {
+          "slug": "ekos-home",
+          "label": "Confirmed",
+          "note": "Source retired: client-rendered gallery with no extractable text, replaced by auction.ekos.io"
+        }
       ]
     },
     {
@@ -17,15 +64,51 @@
       "time_pt": "2026-06-04 00:28 PDT",
       "type": "baseline",
       "items": [
-        {"slug": "ekos-team", "label": "Confirmed", "note": "Baseline captured: leadership page with Maisel, Pfeiffer, Chapman, Mastromauro, Steigerwald, Roslan, Konat, Hernandez, Garcia"},
-        {"slug": "ekos-home", "label": "Confirmed", "note": "Baseline captured: page is a client-rendered gallery with limited extractable text"},
-        {"slug": "ekos-faq", "label": "Confirmed", "note": "Baseline captured: General and Auction FAQs, unchanged 2023 auction content"},
-        {"slug": "aspen-comics", "label": "Confirmed", "note": "Baseline captured: publisher homepage, Ekos Genesis Art banner"},
-        {"slug": "aspen-store", "label": "Confirmed", "note": "Baseline captured: 6 featured products incl Ekos Vol 1 Hardcover $50 and Ekos Genesis Art Collection Exclusive Hardcover $150, both in stock"},
-        {"slug": "ks-vol2", "label": "Confirmed", "note": "Baseline captured: 942 backers, $148,653 pledged, 23 updates, last updated June 1, 2026"},
-        {"slug": "ks-vol1", "label": "Confirmed", "note": "Baseline captured: 1,768 backers, $238,102, 43 updates, last updated Nov 18, 2025"},
-        {"slug": "backerkit-vol2", "label": "Confirmed", "note": "Baseline captured: funded at 297 percent of $50,000 goal"},
-        {"slug": "comic-con", "label": "Confirmed", "note": "Baseline captured: SDCC 2026 July 23-26, Preview Night July 22; Fifth Wave of guests announced approx June 3, 2026; no Aspen or Ekos panel listed yet"}
+        {
+          "slug": "ekos-team",
+          "label": "Confirmed",
+          "note": "Baseline captured: leadership page with Maisel, Pfeiffer, Chapman, Mastromauro, Steigerwald, Roslan, Konat, Hernandez, Garcia"
+        },
+        {
+          "slug": "ekos-home",
+          "label": "Confirmed",
+          "note": "Baseline captured: page is a client-rendered gallery with limited extractable text"
+        },
+        {
+          "slug": "ekos-faq",
+          "label": "Confirmed",
+          "note": "Baseline captured: General and Auction FAQs, unchanged 2023 auction content"
+        },
+        {
+          "slug": "aspen-comics",
+          "label": "Confirmed",
+          "note": "Baseline captured: publisher homepage, Ekos Genesis Art banner"
+        },
+        {
+          "slug": "aspen-store",
+          "label": "Confirmed",
+          "note": "Baseline captured: 6 featured products incl Ekos Vol 1 Hardcover $50 and Ekos Genesis Art Collection Exclusive Hardcover $150, both in stock"
+        },
+        {
+          "slug": "ks-vol2",
+          "label": "Confirmed",
+          "note": "Baseline captured: 942 backers, $148,653 pledged, 23 updates, last updated June 1, 2026"
+        },
+        {
+          "slug": "ks-vol1",
+          "label": "Confirmed",
+          "note": "Baseline captured: 1,768 backers, $238,102, 43 updates, last updated Nov 18, 2025"
+        },
+        {
+          "slug": "backerkit-vol2",
+          "label": "Confirmed",
+          "note": "Baseline captured: funded at 297 percent of $50,000 goal"
+        },
+        {
+          "slug": "comic-con",
+          "label": "Confirmed",
+          "note": "Baseline captured: SDCC 2026 July 23-26, Preview Night July 22; Fifth Wave of guests announced approx June 3, 2026; no Aspen or Ekos panel listed yet"
+        }
       ]
     }
   ],
@@ -40,6 +123,7 @@
     "https://fanboyfactor.com/2025/10/ekos-volume-2-graphic-novel-produced-by-marvel-studios-founder-david-maisel-launches-kickstarter-campaign/",
     "https://updates.kickstarter.com/david-maisel-launches-his-next-universe/",
     "https://aiptcomics.com/2025/10/07/exclusive-ekos-volume-2-david-maisel/",
-    "https://www.friendsofcc.com/2024/07/22/sdcc-con-intel-ekos-taking-over-comic-con-24/"
+    "https://www.friendsofcc.com/2024/07/22/sdcc-con-intel-ekos-taking-over-comic-con-24/",
+    "https://www.thepopverse.com/movies-comics-marvel-studios-david-maisel-ekos-aspen-comics-michael-turner"
   ]
 }
