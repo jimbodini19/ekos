@@ -18,27 +18,26 @@
   .chip { background: var(--card); border: 1px solid var(--accent-dim); border-radius: 999px; padding: 5px 14px; font-size: 0.8rem; }
   .chip strong { color: var(--accent); }
   h2 { font-size: 1rem; color: var(--accent); margin: 34px 0 14px; text-transform: uppercase; letter-spacing: 1.4px; }
-  .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; }
-  .card .title { font-weight: 600; font-size: 0.95rem; }
-  .card .note { color: var(--muted); font-size: 0.85rem; margin-top: 4px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin-bottom: 12px; }
+  .card .title { font-weight: 600; font-size: 1rem; }
+  .card .note { color: var(--muted); font-size: 0.87rem; margin-top: 6px; }
+  .meaning { margin-top: 10px; font-size: 0.87rem; background: rgba(61,220,132,0.06); border-left: 2px solid var(--accent-dim); padding: 8px 12px; border-radius: 0 6px 6px 0; }
+  .meaning b { color: var(--accent); font-weight: 600; }
   .badge { display: inline-block; font-size: 0.66rem; font-weight: 700; letter-spacing: 0.5px; padding: 2px 8px; border-radius: 999px; margin-left: 8px; vertical-align: middle; text-transform: uppercase; }
   .badge.confirmed { background: rgba(61,220,132,0.15); color: var(--accent); border: 1px solid var(--accent-dim); }
   .badge.press { background: rgba(255,193,7,0.12); color: #f0c454; border: 1px solid #8a6d1f; }
-  .badge.baseline { background: rgba(120,160,255,0.12); color: #9db8ff; border: 1px solid #3d568a; }
   .badge.instock { background: rgba(61,220,132,0.15); color: var(--accent); border: 1px solid var(--accent-dim); }
   .badge.soldout { background: rgba(255,99,99,0.12); color: #ff8a8a; border: 1px solid #8a3d3d; }
   .date { color: var(--muted); font-size: 0.75rem; float: right; }
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
-  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); }
-  tr:last-child td { border-bottom: none; }
-  th { color: var(--muted); font-weight: 600; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.8px; }
-  .history-item { border-left: 2px solid var(--accent-dim); padding: 6px 0 6px 14px; margin-bottom: 10px; font-size: 0.85rem; background: var(--card2); border-radius: 0 8px 8px 0; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; }
-  .history-item .hdate { color: var(--muted); font-size: 0.75rem; margin-bottom: 2px; }
-  .callout { background: rgba(61,220,132,0.07); border: 1px solid var(--accent-dim); border-radius: 10px; padding: 12px 16px; margin-bottom: 18px; font-size: 0.88rem; }
   .collector { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  @media (max-width: 640px) { .collector { grid-template-columns: 1fr; } th:nth-child(2), td:nth-child(2) { display: none; } }
+  details { margin-top: 10px; }
+  summary { color: var(--muted); font-size: 0.85rem; cursor: pointer; padding: 6px 0; }
+  summary:hover { color: var(--accent); }
+  .srclist { columns: 2; font-size: 0.85rem; padding: 10px 4px; }
+  .srclist a { display: block; padding: 3px 0; }
+  @media (max-width: 640px) { .collector { grid-template-columns: 1fr; } .srclist { columns: 1; } }
   footer { margin-top: 44px; color: var(--muted); font-size: 0.75rem; border-top: 1px solid var(--border); padding-top: 14px; }
 </style>
 </head>
@@ -53,83 +52,64 @@
     <div class="chips">
       <div class="chip" id="countdown-pn">Preview Night: <strong>July 22</strong></div>
       <div class="chip" id="countdown-con">SDCC 2026: <strong>July 23 to 26</strong></div>
-      <div class="chip">Sources watched: <strong>12</strong></div>
     </div>
   </header>
 
-  <div class="callout">
-    Baseline established June 4, 2026 across all 12 watched sources. Future runs flag changes against these snapshots.
-  </div>
-
-  <h2>New since last check</h2>
+  <h2>The News</h2>
 
   <div class="card">
-    <span class="date">Detected 2026-06-04</span>
-    <div class="title"><a href="https://www.kickstarter.com/projects/aspencomics/ekos-volume-2-the-historic-graphic-novel-event-continues/description" target="_blank">Kickstarter Vol 2: backer update posted June 1, 2026</a> <span class="badge confirmed">Confirmed</span></div>
-    <div class="note">Project shows "Last updated June 1, 2026" with 23 total updates. 942 backers, $148,653 pledged. Tier delivery estimates said March 2026, so this update is worth reading for shipping or fulfillment news.</div>
+    <span class="date">2026-06-04</span>
+    <div class="title"><a href="https://www.kickstarter.com/projects/aspencomics/ekos-volume-2-the-historic-graphic-novel-event-continues/description" target="_blank">Ekos Volume 2 Kickstarter posted a backer update June 1</a> <span class="badge confirmed">Confirmed</span></div>
+    <div class="note">The Vol 2 campaign (942 backers, $148,653 raised) published its 23rd update on June 1, 2026. Original tier estimates listed March 2026 delivery, so the campaign is past its initial fulfillment window.</div>
+    <div class="meaning"><b>What it means:</b> The most likely topics are printing, shipping, or fulfillment timing. If the update confirms books are shipping, that is a strong moment for the page: backers will be posting their copies, and a "Vol 2 is arriving" post rides that wave. Backers can read the update directly on Kickstarter.</div>
   </div>
 
   <div class="card">
-    <span class="date">Detected 2026-06-04</span>
-    <div class="title"><a href="https://www.comic-con.org/cc/" target="_blank">Comic-Con 2026: Fifth Wave of guests announced</a> <span class="badge confirmed">Confirmed</span></div>
-    <div class="note">Posted roughly June 3, 2026 on comic-con.org. No Aspen Comics panel or Ekos exclusive listed yet. Panel schedule typically lands in early July.</div>
+    <span class="date">2026-06-04</span>
+    <div class="title"><a href="https://www.comic-con.org/cc/" target="_blank">Comic-Con announced its Fifth Wave of 2026 guests</a> <span class="badge confirmed">Confirmed</span></div>
+    <div class="note">Posted around June 3, 2026. No Aspen Comics panel or Ekos exclusive has been announced yet for SDCC 2026 (July 23 to 26, Preview Night July 22).</div>
+    <div class="meaning"><b>What it means:</b> Guest waves landing weekly means the announcement season is in full swing. Panel schedules historically post in early July. Aspen has run an official Ekos panel at past cons, so a 2026 panel or exclusive announcement is the single biggest thing to watch for over the next four weeks.</div>
   </div>
 
   <div class="card">
-    <span class="date">Detected 2026-06-04</span>
-    <div class="title"><a href="https://auction.ekos.io/" target="_blank">auction.ekos.io is currently paused</a> <span class="badge confirmed">Confirmed</span></div>
-    <div class="note">The auction site shows a "Deployment Paused" hold page. The radar will flag it if the site comes back online, which could signal a new drop or announcement.</div>
-  </div>
-
-  <div class="card">
-    <span class="date">Detected 2026-06-04</span>
-    <div class="title">All 12 sources: baseline snapshots captured <span class="badge baseline">Baseline</span></div>
-    <div class="note">ekos.io (team, FAQ), auction.ekos.io, aspencomics.com (home, news), aspenstore.com (home plus two Ekos product pages), both Kickstarters, BackerKit, comic-con.org.</div>
+    <span class="date">2026-06-04</span>
+    <div class="title"><a href="https://auction.ekos.io/" target="_blank">The Ekos Genesis auction site is currently offline</a> <span class="badge confirmed">Confirmed</span></div>
+    <div class="note">auction.ekos.io shows a "Deployment Paused" hold page rather than the auction experience.</div>
+    <div class="meaning"><b>What it means:</b> Nothing is active on the Genesis Art side right now. If this site comes back online before SDCC, that would likely signal a new drop or announcement tied to the con, and this radar will flag it the run it happens.</div>
   </div>
 
   <h2>Collector Watch</h2>
   <div class="collector">
     <div class="card">
       <div class="title"><a href="https://www.aspenstore.com/Ekos-Vol-1-Hardcover_p_6575.html" target="_blank">Ekos Vol 1 Hardcover</a> <span class="badge instock">In Stock</span></div>
-      <div class="note">$50.00 at the official Aspen Store. Checked 2026-06-04.</div>
+      <div class="note">$50.00 at the official Aspen Store. The way to read Vol 1 before Vol 2 arrives.</div>
     </div>
     <div class="card">
       <div class="title"><a href="https://www.aspenstore.com/Ekos-Genesis-Art-Collection-AspenStorecom-Exclusive-Hardcover-_p_6550.html" target="_blank">Ekos Genesis Art Collection Exclusive HC</a> <span class="badge instock">In Stock</span></div>
-      <div class="note">$150.00, AspenStore.com exclusive. Checked 2026-06-04.</div>
+      <div class="note">$150.00, AspenStore.com exclusive art book. Store exclusives have sold out before; status is checked every run.</div>
     </div>
   </div>
 
-  <h2>Source watch list</h2>
-  <div class="card" style="padding: 4px 8px;">
-    <table>
-      <tr><th>Source</th><th>Last checked</th><th>Last changed</th><th>Link</th></tr>
-      <tr><td>ekos.io Team</td><td>2026-06-04</td><td>baseline</td><td><a href="https://ekos.io/our-team" target="_blank">Open</a></td></tr>
-      <tr><td>Ekos Auction Site</td><td>2026-06-04</td><td>baseline</td><td><a href="https://auction.ekos.io/" target="_blank">Open</a></td></tr>
-      <tr><td>ekos.io FAQ</td><td>2026-06-04</td><td>baseline</td><td><a href="https://ekos.io/faq" target="_blank">Open</a></td></tr>
-      <tr><td>Aspen Comics Home</td><td>2026-06-04</td><td>baseline</td><td><a href="https://aspencomics.com/" target="_blank">Open</a></td></tr>
-      <tr><td>Aspen Comics News</td><td>2026-06-04</td><td>baseline</td><td><a href="https://www.aspencomics.com/news.asp" target="_blank">Open</a></td></tr>
-      <tr><td>Aspen Store</td><td>2026-06-04</td><td>baseline</td><td><a href="https://www.aspenstore.com/" target="_blank">Open</a></td></tr>
-      <tr><td>Store: Ekos Vol 1 HC</td><td>2026-06-04</td><td>baseline</td><td><a href="https://www.aspenstore.com/Ekos-Vol-1-Hardcover_p_6575.html" target="_blank">Open</a></td></tr>
-      <tr><td>Store: Genesis Art HC</td><td>2026-06-04</td><td>baseline</td><td><a href="https://www.aspenstore.com/Ekos-Genesis-Art-Collection-AspenStorecom-Exclusive-Hardcover-_p_6550.html" target="_blank">Open</a></td></tr>
-      <tr><td>Kickstarter Vol 2</td><td>2026-06-04</td><td>baseline</td><td><a href="https://www.kickstarter.com/projects/aspencomics/ekos-volume-2-the-historic-graphic-novel-event-continues/description" target="_blank">Open</a></td></tr>
-      <tr><td>Kickstarter Vol 1</td><td>2026-06-04</td><td>baseline</td><td><a href="https://www.kickstarter.com/projects/aspencomics/ekos-vol1-the-graphic-novel-event-of-the-year/description" target="_blank">Open</a></td></tr>
-      <tr><td>BackerKit Vol 2</td><td>2026-06-04</td><td>baseline</td><td><a href="https://www.backerkit.com/projects/aspencomics/ekos-volume-2-the-historic-graphic-novel-event-continues" target="_blank">Open</a></td></tr>
-      <tr><td>Comic-Con 2026</td><td>2026-06-04</td><td>baseline</td><td><a href="https://www.comic-con.org/cc/" target="_blank">Open</a></td></tr>
-    </table>
-  </div>
-
-  <h2>History</h2>
-  <div class="history-item">
-    <div class="hdate">2026-06-04 (second pass)</div>
-    Watch list expanded to 12 sources: added auction.ekos.io (currently showing Deployment Paused), aspencomics.com/news.asp, and the two Ekos product pages at the Aspen Store for Collector Watch (Vol 1 HC $50 In Stock, Genesis Art Exclusive HC $150 In Stock). Retired ekos.io/home (client-rendered gallery, no extractable text). Page design set as v1 baseline.
-  </div>
-  <div class="history-item">
-    <div class="hdate">2026-06-04, 12:28 AM PT</div>
-    Baseline run. Snapshots captured for the original 9 sources. Press scan seeded with 11 known articles (Oct 2025 Vol 2 Kickstarter coverage, Hollywood Reporter Ekos movie teaser coverage, SDCC history). No new press in the last 14 days. Kickstarter Vol 2 shows a fresh backer update dated June 1, 2026. Comic-Con announced its Fifth Wave of 2026 guests around June 3, 2026.
-  </div>
+  <details>
+    <summary>Sources watched (12)</summary>
+    <div class="srclist">
+      <a href="https://ekos.io/our-team" target="_blank">ekos.io Team</a>
+      <a href="https://ekos.io/faq" target="_blank">ekos.io FAQ</a>
+      <a href="https://auction.ekos.io/" target="_blank">Ekos Auction Site</a>
+      <a href="https://aspencomics.com/" target="_blank">Aspen Comics Home</a>
+      <a href="https://www.aspencomics.com/news.asp" target="_blank">Aspen Comics News</a>
+      <a href="https://www.aspenstore.com/" target="_blank">Aspen Store</a>
+      <a href="https://www.aspenstore.com/Ekos-Vol-1-Hardcover_p_6575.html" target="_blank">Store: Ekos Vol 1 HC</a>
+      <a href="https://www.aspenstore.com/Ekos-Genesis-Art-Collection-AspenStorecom-Exclusive-Hardcover-_p_6550.html" target="_blank">Store: Genesis Art HC</a>
+      <a href="https://www.kickstarter.com/projects/aspencomics/ekos-volume-2-the-historic-graphic-novel-event-continues/description" target="_blank">Kickstarter Vol 2</a>
+      <a href="https://www.kickstarter.com/projects/aspencomics/ekos-vol1-the-graphic-novel-event-of-the-year/description" target="_blank">Kickstarter Vol 1</a>
+      <a href="https://www.backerkit.com/projects/aspencomics/ekos-volume-2-the-historic-graphic-novel-event-continues" target="_blank">BackerKit Vol 2</a>
+      <a href="https://www.comic-con.org/cc/" target="_blank">Comic-Con 2026</a>
+    </div>
+  </details>
 
   <footer>
-    Ekos News Radar checks official sources (ekos.io, auction.ekos.io, aspencomics.com, aspenstore.com, Kickstarter, BackerKit, comic-con.org) plus press searches, twice weekly. Confirmed = from an official source. Press = unverified press coverage. This page is run by fans and is not affiliated with Aspen Comics or Mythos Studios.
+    Checked twice weekly against official sources plus press searches. Confirmed = from an official source (ekos.io, aspencomics.com, aspenstore.com, Kickstarter, BackerKit, comic-con.org). Press = reported but unverified. This page is run by fans and is not affiliated with Aspen Comics or Mythos Studios.
   </footer>
 </div>
 <script>
