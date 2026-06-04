@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "date": "2026-06-04",
+      "time_pt": "2026-06-04 00:28 PDT",
+      "type": "baseline",
+      "items": [
+        {"slug": "ekos-team", "label": "Confirmed", "note": "Baseline captured: leadership page with Maisel, Pfeiffer, Chapman, Mastromauro, Steigerwald, Roslan, Konat, Hernandez, Garcia"},
+        {"slug": "ekos-home", "label": "Confirmed", "note": "Baseline captured: page is a client-rendered gallery with limited extractable text"},
+        {"slug": "ekos-faq", "label": "Confirmed", "note": "Baseline captured: General and Auction FAQs, unchanged 2023 auction content"},
+        {"slug": "aspen-comics", "label": "Confirmed", "note": "Baseline captured: publisher homepage, Ekos Genesis Art banner"},
+        {"slug": "aspen-store", "label": "Confirmed", "note": "Baseline captured: 6 featured products incl Ekos Vol 1 Hardcover $50 and Ekos Genesis Art Collection Exclusive Hardcover $150, both in stock"},
+        {"slug": "ks-vol2", "label": "Confirmed", "note": "Baseline captured: 942 backers, $148,653 pledged, 23 updates, last updated June 1, 2026"},
+        {"slug": "ks-vol1", "label": "Confirmed", "note": "Baseline captured: 1,768 backers, $238,102, 43 updates, last updated Nov 18, 2025"},
+        {"slug": "backerkit-vol2", "label": "Confirmed", "note": "Baseline captured: funded at 297 percent of $50,000 goal"},
+        {"slug": "comic-con", "label": "Confirmed", "note": "Baseline captured: SDCC 2026 July 23-26, Preview Night July 22; Fifth Wave of guests announced approx June 3, 2026; no Aspen or Ekos panel listed yet"}
+      ]
+    }
+  ],
+  "press_seen": [
+    "https://bleedingcool.com/comics/mike-turners-ekos-vol-1-finally-in-aspen-august-2025-solicits/",
+    "https://bleedingcool.com/comics/aspen-launch-michael-turner-ekos-universe-san-diego-comic-con/",
+    "https://comicbook.com/comics/news/michael-turner-and-geoff-johns-ekos-vol-2-reveals-first-look-preview-as-kickstarter-shatters-funding-goal-exclusive/",
+    "https://screenrant.com/ekos-aspen-comic-kickstarter-launch-goal/",
+    "https://www.superherohype.com/comics/633978-ekos-volume-2-cover-revealed-marvel-studios-founder-epic-graphic-novel",
+    "https://www.hollywoodreporter.com/movies/movie-news/marvel-studios-founder-ekos-to-comic-con-1235954136/",
+    "https://www.hollywoodreporter.com/movies/movie-news/ekos-movie-comic-con-teaser-1236330687/",
+    "https://fanboyfactor.com/2025/10/ekos-volume-2-graphic-novel-produced-by-marvel-studios-founder-david-maisel-launches-kickstarter-campaign/",
+    "https://updates.kickstarter.com/david-maisel-launches-his-next-universe/",
+    "https://aiptcomics.com/2025/10/07/exclusive-ekos-volume-2-david-maisel/",
+    "https://www.friendsofcc.com/2024/07/22/sdcc-con-intel-ekos-taking-over-comic-con-24/"
+  ]
+}
