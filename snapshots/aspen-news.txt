@@ -1,0 +1,3 @@
+NOTE: news.asp currently renders the same content as the aspencomics.com homepage (SPA). Divergence from homepage content is a signal.
+ASPEN PROPERTIES / SHOP / EKOS GENESIS ART
+Aspen Comics is a comic book publishing company founded in 2003 by legendary creator and artist, Michael Turner.

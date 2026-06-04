@@ -1,0 +1,2 @@
+AUCTION SITE STATUS: Deployment Paused (Vercel hold page)
+This deployment is temporarily paused

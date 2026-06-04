@@ -2,6 +2,18 @@
   "runs": [
     {
       "date": "2026-06-04",
+      "time_pt": "2026-06-04 (second pass)",
+      "type": "baseline-expansion",
+      "items": [
+        {"slug": "ekos-auction", "label": "Confirmed", "note": "New source added. Baseline: auction.ekos.io shows Deployment Paused (Vercel). Site coming back online will be flagged"},
+        {"slug": "aspen-news", "label": "Confirmed", "note": "New source added. Currently mirrors homepage content; divergence is a signal"},
+        {"slug": "store-ekos-v1-hc", "label": "Confirmed", "note": "New Collector Watch source. Ekos Vol 1 Hardcover $50.00, In Stock"},
+        {"slug": "store-ekos-genesis-hc", "label": "Confirmed", "note": "New Collector Watch source. Ekos Genesis Art Collection Exclusive Hardcover $150.00, In Stock"},
+        {"slug": "ekos-home", "label": "Confirmed", "note": "Source retired: client-rendered gallery with no extractable text, replaced by auction.ekos.io"}
+      ]
+    },
+    {
+      "date": "2026-06-04",
       "time_pt": "2026-06-04 00:28 PDT",
       "type": "baseline",
       "items": [
