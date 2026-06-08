@@ -1,6 +1,33 @@
 {
   "runs": [
     {
+      "date": "2026-06-08",
+      "time_pt": "2026-06-08 08:08 PDT",
+      "type": "scheduled",
+      "items": [
+        {
+          "slug": "ks-vol2",
+          "label": "Confirmed",
+          "note": "CHANGE: New backer Update #24 '100% Fulfillment Achieved!!!' (June 5, 2026). All packages shipped, all tracking sent; fulfillment complete in just under two weeks since May 21. Update closes with forward tease 'cannot wait for you to see what we have in store for you next.' Backers 942 / pledged $148,653 / goal $50,000 unchanged. Snapshot updated. Updates count now 24, comments 114."
+        },
+        {
+          "slug": "all-others",
+          "label": "Confirmed",
+          "note": "No changes: ekos-team, ekos-faq, ekos-auction (still Deployment Paused), aspen-comics, aspen-news (still mirrors homepage), aspen-store, store-ekos-v1-hc ($50 In Stock), store-ekos-genesis-hc ($150 In Stock), ks-vol1 (1,768 / $238,102 / last updated Nov 18 2025), backerkit-vol2 (297% of $50,000), comic-con (Fifth Wave guests, no Aspen/Ekos panel or exclusive yet)."
+        },
+        {
+          "slug": "social",
+          "label": "Press/Unconfirmed",
+          "note": "X logged-out wall blocked @AspenComics timeline; bio unchanged (still references Fathom Timeline Omnibus KS Feb 19). @Mythos_Studios checked via fallback search. No new social findings."
+        },
+        {
+          "slug": "press",
+          "label": "Press/Unconfirmed",
+          "note": "No new press in last 14 days. All search results were URLs already in press_seen or older/general (leagueofcomicgeeks, comicbookclublive Oct 2025, etc.). No SDCC 2026 Aspen/Ekos panel or exclusive news found."
+        }
+      ]
+    },
+    {
       "date": "2026-06-04",
       "time_pt": "2026-06-04 ~10:00 PDT",
       "type": "scheduled",
