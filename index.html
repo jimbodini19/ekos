@@ -35,8 +35,10 @@
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
   .collector { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .sdcc-line { font-size: 0.88rem; padding: 6px 0; border-bottom: 1px solid var(--border); }
+  .sdcc-line { font-size: 0.88rem; padding: 7px 0; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; gap: 8px; }
   .sdcc-line:last-child { border-bottom: none; }
+  .sdcc-label { color: var(--muted); }
+  .sdcc-val { text-align: right; }
   details { margin-top: 10px; }
   summary { color: var(--muted); font-size: 0.85rem; cursor: pointer; padding: 6px 0; }
   summary:hover { color: var(--accent); }
@@ -53,7 +55,7 @@
       <h1>Ekos News Radar</h1>
       <div class="tagline">Fan-run. Not official.</div>
     </div>
-    <div class="stamp">Last checked: June 8, 2026 at 8:08 AM PT</div>
+    <div class="stamp">Last checked: June 15, 2026 at 9:59 AM PT</div>
     <div class="chips">
       <div class="chip" id="countdown-pn">Preview Night: <strong>July 22</strong></div>
       <div class="chip" id="countdown-con">SDCC 2026: <strong>July 23 to 26</strong></div>
@@ -63,30 +65,52 @@
   <h2>The News</h2>
 
   <div class="card">
-    <span class="date">2026-06-05</span>
-    <div class="title"><a href="https://www.kickstarter.com/projects/aspencomics/ekos-volume-2-the-historic-graphic-novel-event-continues/posts" target="_blank">Ekos Vol 2 hits 100 percent fulfillment, per backer Update #24</a> <span class="badge confirmed">Confirmed</span></div>
-    <div class="note">Aspen's June 5 backer update is titled "100% Fulfillment Achieved!!!" It confirms every package has shipped and all tracking has been sent, just under two weeks after fulfillment began on May 21. The update closes with a forward-looking line: the team "cannot wait for you to see what we have in store for you next."</div>
-    <div class="meaning"><b>What it means:</b> Reading this as analysis, not confirmed fact: with Vol 2 fully out the door, Aspen has cleared its biggest logistical task before SDCC. That tease about "what we have in store next" is worth noting but is not a confirmed announcement of Vol 3, a film update, or a con reveal. It does suggest the next beat in the story is likely to be forward-looking news rather than shipping logistics.</div>
-    <div class="feedidea"><b>For the feed:</b> A "Vol 2 has landed everywhere" celebration post inviting backers to share shelf and unboxing shots, with a story repost chain of the best ones. Pure community content, no unconfirmed claims. Pair it with a "what would you want to see next from Ekos?" story poll to ride the team's own tease without stating anything as fact.</div>
+    <div class="title">No changes since last check <span class="badge confirmed">Confirmed</span></div>
+    <div class="note">All 12 sources checked. No updates to the team page, FAQ, Aspen Comics homepage, Aspen Store, either hardcover listing, Kickstarter Vol 2 (still on Update #24 "100% Fulfillment Achieved!!!" from June 5), BackerKit, or the auction site (still showing "Deployment Paused"). No new press in the last 14 days.</div>
+    <div class="meaning"><b>What it means:</b> The expected lull before SDCC. The Vol 2 campaign has fully delivered, which is a clean slate heading into con season. The team's forward tease from Update #24 ("cannot wait for you to see what we have in store for you next") is still the most recent signal of anything coming. Reading that as analysis only: the timing suggests whatever is next may be positioned as an SDCC reveal rather than a between-shows announcement.</div>
+    <div class="feedidea"><b>For the feed:</b> Quiet news weeks are great for the guided journey. A Grell character deep dive, an Aspen-to-Grace art appreciation carousel, or a "pick your favorite panel" story poll keeps the audience warm and primed for when SDCC news eventually drops. No unconfirmed claims needed.</div>
   </div>
 
+  <h2>Road to SDCC</h2>
+
   <div class="card">
-    <span class="date">2026-06-08</span>
-    <div class="title">Everything else is quiet since the last check <span class="badge confirmed">Confirmed</span></div>
-    <div class="note">No changes on the team page, FAQ, publisher site, Aspen Store, both store hardcovers, Kickstarter Vol 1, BackerKit, or Comic-Con. The Genesis auction site is still on its "Deployment Paused" hold page. No new press in the last 14 days, and no Aspen or Ekos panel or exclusive listed for SDCC 2026 yet.</div>
-    <div class="meaning"><b>What it means:</b> This is the expected lull before the SDCC ramp. The next things most likely to break: an SDCC 2026 Aspen panel or Ekos exclusive (panel schedules historically post in early to mid July), any concrete "what's next" follow-through on the Vol 2 tease, and any reactivation of auction.ekos.io, which would itself be a story.</div>
-    <div class="feedidea"><b>For the feed:</b> Use the quiet window for the guided journey: a Grell character carousel or an Aspen-to-Grace art appreciation post keeps momentum without needing fresh news, and warms the audience up before the SDCC push.</div>
+    <div class="note" style="margin-bottom:12px; font-size:0.82rem;">37 days to Preview Night (July 22). Tracking what has been confirmed vs what is still pending. Sources: comic-con.org, aspencomics.com, official social accounts.</div>
+    <div class="sdcc-line">
+      <span class="sdcc-label">SDCC 2026 dates</span>
+      <span class="sdcc-val">July 23 to 26, Preview Night July 22 <span class="badge confirmed">Confirmed</span></span>
+    </div>
+    <div class="sdcc-line">
+      <span class="sdcc-label">Aspen Comics panel</span>
+      <span class="sdcc-val">Not yet announced <span class="badge pending">Watching</span></span>
+    </div>
+    <div class="sdcc-line">
+      <span class="sdcc-label">Aspen booth number</span>
+      <span class="sdcc-val">Not yet announced <span class="badge pending">Watching</span></span>
+    </div>
+    <div class="sdcc-line">
+      <span class="sdcc-label">Ekos exclusives</span>
+      <span class="sdcc-val">Not yet announced <span class="badge pending">Watching</span></span>
+    </div>
+    <div class="sdcc-line">
+      <span class="sdcc-label">Special guests (latest wave, June 10)</span>
+      <span class="sdcc-val">Fraction, Ottley, Straczynski + 2 others. No Aspen/Ekos. <span class="badge confirmed">Confirmed</span></span>
+    </div>
+    <div class="sdcc-line">
+      <span class="sdcc-label">Panel schedule release</span>
+      <span class="sdcc-val">Historically early to mid July <span class="badge pending">Not yet</span></span>
+    </div>
+    <div class="meaning" style="margin-top:12px;"><b>What it means:</b> Aspen had a full panel at SDCC 2025 featuring Ekos. If that pattern holds, a 2026 panel announcement would likely land in early to mid July when Comic-Con drops the full programming schedule. Any Ekos-related announcement before that would almost certainly come via @AspenComics or @Mythos_Studios social first. The auction site (auction.ekos.io) remaining paused is also worth watching: a reactivation would be significant news and is likely tied to any "what's next" reveal.</div>
   </div>
 
   <h2>Collector Watch</h2>
   <div class="collector">
     <div class="card">
       <div class="title"><a href="https://www.aspenstore.com/Ekos-Vol-1-Hardcover_p_6575.html" target="_blank">Ekos Vol 1 Hardcover</a> <span class="badge instock">In Stock</span></div>
-      <div class="note">$50.00 at the official Aspen Store. With Vol 2 now fully delivered, this is the way new readers catch up on the story so far.</div>
+      <div class="note">$50.00 at the official Aspen Store. With Vol 2 fully delivered to backers, this is the entry point for anyone discovering Ekos before SDCC.</div>
     </div>
     <div class="card">
       <div class="title"><a href="https://www.aspenstore.com/Ekos-Genesis-Art-Collection-AspenStorecom-Exclusive-Hardcover-_p_6550.html" target="_blank">Ekos Genesis Art Collection Exclusive HC</a> <span class="badge instock">In Stock</span></div>
-      <div class="note">$150.00, AspenStore.com exclusive art book. Store exclusives have sold out before, so status is checked every run.</div>
+      <div class="note">$150.00, AspenStore.com exclusive art book featuring Michael Turner and Peter Steigerwald's work. Checked every run as store exclusives can sell out without warning.</div>
     </div>
   </div>
 
@@ -109,7 +133,7 @@
   </details>
 
   <footer>
-    Checked twice weekly against official sources plus press searches. Confirmed = from an official source (ekos.io, aspencomics.com, aspenstore.com, Kickstarter, BackerKit, comic-con.org). Press = reported but unverified. This page is run by fans and is not affiliated with Aspen Comics or Mythos Studios.
+    Checked twice weekly against official sources plus press searches. Confirmed = from an official source (ekos.io, aspencomics.com, aspenstore.com, Kickstarter, BackerKit, comic-con.org, @AspenComics or @Mythos_Studios on X). Press = reported but not yet confirmed by an official source. This page is run by fans and is not affiliated with Aspen Comics or Mythos Studios.
   </footer>
 </div>
 <script>

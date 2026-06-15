@@ -1,6 +1,33 @@
 {
   "runs": [
     {
+      "date": "2026-06-15",
+      "time_pt": "2026-06-15 09:59 PDT",
+      "type": "scheduled",
+      "items": [
+        {
+          "slug": "comic-con",
+          "label": "Confirmed",
+          "note": "CHANGE: New SDCC guest wave 'More Comic-Con 2026 Guests Announced' posted June 10, 2026. Guests: Matt Fraction, Ryan Ottley, John J. Pearson, J. Michael Straczynski, Stephanie Williams. No Aspen Comics or Ekos-related guests. Snapshot updated. Still no Aspen panel, booth number, or Ekos exclusive announced."
+        },
+        {
+          "slug": "all-others",
+          "label": "Confirmed",
+          "note": "No changes: ekos-team, ekos-faq, ekos-auction (still Deployment Paused), aspen-comics, aspen-news (still mirrors homepage), aspen-store (same 6 featured products), store-ekos-v1-hc ($50 In Stock), store-ekos-genesis-hc ($150 In Stock), ks-vol2 (942 backers / $148,653 / last updated June 5, still Update #24 '100% Fulfillment Achieved!!!'), backerkit-vol2 (297% of $50,000)."
+        },
+        {
+          "slug": "social",
+          "label": "Press/Unconfirmed",
+          "note": "X logged-out wall blocked @AspenComics and @Mythos_Studios timelines. Fallback search confirmed no new posts since April 21 (Turner birthday post). No new social findings."
+        },
+        {
+          "slug": "press",
+          "label": "Press/Unconfirmed",
+          "note": "No new press in last 14 days. All search results were URLs already in press_seen or general older articles. No SDCC 2026 Aspen/Ekos panel or exclusive news found."
+        }
+      ]
+    },
+    {
       "date": "2026-06-08",
       "time_pt": "2026-06-08 08:08 PDT",
       "type": "scheduled",
