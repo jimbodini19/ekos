@@ -18,7 +18,7 @@
         {
           "slug": "social",
           "label": "Confirmed",
-          "note": "X logged-out wall blocked both timelines. Bios captured: @AspenComics unchanged (Fathom Timeline Omnibus KS Feb 19). @Mythos_Studios bio reads 'New Ekos Universe launching Sept 17th' - treated as a standing Confirmed signal (verified account), surfaced on the page; not flagged as a new change since prior runs recorded the Mythos bio as known/unchanged. No new posts visible."
+          "note": "X logged-out wall blocked both timelines. Bios captured: @AspenComics unchanged (Fathom Timeline Omnibus KS Feb 19). @Mythos_Studios bio reads 'New Ekos Universe launching Sept 17th' - VERIFIED AS STALE: this is the original Ekos Vol 1 Kickstarter launch date (Sept 17, 2024), not a forward 2026 date. Removed from the page after Jimbo flagged it. Do not treat the bio Sept 17 as upcoming. No new posts visible."
         },
         {
           "slug": "press",
