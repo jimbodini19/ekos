@@ -1,6 +1,33 @@
 {
   "runs": [
     {
+      "date": "2026-06-18",
+      "time_pt": "2026-06-18 11:20 PDT",
+      "type": "scheduled",
+      "items": [
+        {
+          "slug": "comic-con",
+          "label": "Confirmed",
+          "note": "CHANGE: comic-con.org homepage now shows a Seventh Wave of 2026 special guests and a 'Comic-Con 2026 Badges Are on Their Way!' notice (badges shipping). Announced guest waves through the Seventh Wave include NO Aspen Comics or Ekos creators. Still no Aspen panel, booth number, or Ekos exclusive listed. Snapshot updated."
+        },
+        {
+          "slug": "all-others",
+          "label": "Confirmed",
+          "note": "No changes: ekos-team (9 leaders, Maisel through Garcia), ekos-faq (2023 auction content), ekos-auction (still 'Deployment Paused'), aspen-comics, aspen-news (still mirrors homepage), aspen-store (same 6 featured products), store-ekos-v1-hc ($50 In Stock), store-ekos-genesis-hc ($150 In Stock), ks-vol2 (942 backers / $148,653 / 24 updates / last updated June 5, still Update #24 '100% Fulfillment Achieved!!!'; comments ticked 114->131, engagement only), ks-vol1 (1,768 / $238,102 / last updated Nov 18 2025), backerkit-vol2 (297% of $50,000)."
+        },
+        {
+          "slug": "social",
+          "label": "Confirmed",
+          "note": "X logged-out wall blocked both timelines. Bios captured: @AspenComics unchanged (Fathom Timeline Omnibus KS Feb 19). @Mythos_Studios bio reads 'New Ekos Universe launching Sept 17th' - treated as a standing Confirmed signal (verified account), surfaced on the page; not flagged as a new change since prior runs recorded the Mythos bio as known/unchanged. No new posts visible."
+        },
+        {
+          "slug": "press",
+          "label": "Press/Unconfirmed",
+          "note": "No new press in the last 14 days. All search hits were older/general articles (2024-2025) or DB listings. Added several older URLs to press_seen to prevent resurfacing. No SDCC 2026 Aspen/Ekos panel or exclusive press found. No Ekos Volume 3 campaign found."
+        }
+      ]
+    },
+    {
       "date": "2026-06-15",
       "time_pt": "2026-06-15 09:59 PDT",
       "type": "scheduled",
@@ -178,6 +205,13 @@
     "https://updates.kickstarter.com/david-maisel-launches-his-next-universe/",
     "https://aiptcomics.com/2025/10/07/exclusive-ekos-volume-2-david-maisel/",
     "https://www.friendsofcc.com/2024/07/22/sdcc-con-intel-ekos-taking-over-comic-con-24/",
-    "https://www.thepopverse.com/movies-comics-marvel-studios-david-maisel-ekos-aspen-comics-michael-turner"
+    "https://www.thepopverse.com/movies-comics-marvel-studios-david-maisel-ekos-aspen-comics-michael-turner",
+    "https://geektherapy.org/sdcc-marvel-studios-founder-david-maisel-launches-new-universe-of-heroes-at-comic-con/",
+    "https://www.gamesradar.com/comics/ekos-announcement/",
+    "https://gothamgeekgirl.com/2024/08/07/interview-marvel-studios-founder-david-maisel-building-the-ekos-universe-sdcc-2024/",
+    "https://leagueofcomicgeeks.com/comics/series/119252/ekos",
+    "https://www.youtube.com/watch?v=rdRS0esCU_w",
+    "https://bleedingcool.com/comics/elon-musk-calls-david-maisels-new-comics-universe-ekos-cool/",
+    "https://comicbook.com/comics/news/david-maisel-talks-bringing-ekos-to-life-kickstarter-creating-dream-aspen-crossover/"
   ]
 }
