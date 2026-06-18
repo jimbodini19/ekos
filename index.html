@@ -154,14 +154,16 @@
 <script>
   (function () {
     var now = new Date();
-    var pn = new Date('2026-07-22T17:00:00-07:00');
-    var con = new Date('2026-07-23T09:00:00-07:00');
-    function days(d) { return Math.max(0, Math.ceil((d - now) / 86400000)); }
+    var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var pn = new Date(2026, 6, 22);
+    var con = new Date(2026, 6, 23);
+    var conEnd = new Date(2026, 6, 27);
+    function days(d) { return Math.max(0, Math.round((d - today) / 86400000)); }
     var pnDays = days(pn), conDays = days(con);
-    if (pnDays > 0) {
+    if (today < pn) {
       document.getElementById('countdown-pn').innerHTML = 'Preview Night July 22: <strong>' + pnDays + ' days</strong>';
       document.getElementById('countdown-con').innerHTML = 'SDCC July 23 to 26: <strong>' + conDays + ' days</strong>';
-    } else if (now < new Date('2026-07-27T00:00:00-07:00')) {
+    } else if (today < conEnd) {
       document.getElementById('countdown-pn').innerHTML = '<strong>SDCC 2026 is happening now</strong>';
       document.getElementById('countdown-con').innerHTML = 'Through <strong>July 26</strong>';
     }
