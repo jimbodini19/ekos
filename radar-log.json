@@ -1,6 +1,33 @@
 {
   "runs": [
     {
+      "date": "2026-06-22",
+      "time_pt": "2026-06-22 08:00 PDT",
+      "type": "scheduled",
+      "items": [
+        {
+          "slug": "press",
+          "label": "Press/Unconfirmed",
+          "note": "NEW press finding: 'The DC Art of Michael Turner' hardcover from Clover Press (third volume in the 'DC Art of...' line), reported June 16 2026 (getyourcomicon and others), now live on Kickstarter. Geoff Johns (Ekos writer/EP) wrote an introduction; Aspen president Frank Mastromauro commented on the collaboration. This is a Clover Press product, NOT an Aspen/Ekos release, so labeled Press/Unconfirmed. Added to Press Desk and The News with Turner-legacy framing. Older Lozano Vol2 cover (Oct 2025), publishersweekly SDCC 2026 preview, and sdccblog SDCC PSA added to press_seen to prevent resurfacing."
+        },
+        {
+          "slug": "social",
+          "label": "Confirmed",
+          "note": "X logged-out wall blocked both timelines. Bios captured. CHANGE: @AspenComics bio now reads '... DC ART OF MICHAEL TURNER now live on Kickstarter!' (previously referenced Fathom Timeline Omnibus KS). Confirms Aspen is promoting the Clover Press Turner artbook. @Mythos_Studios bio unchanged ('New Ekos Universe launching Sept 17th' - still the STALE Sept 17 2024 line, do not treat as upcoming). No new posts visible (timelines walled)."
+        },
+        {
+          "slug": "comic-con",
+          "label": "Confirmed",
+          "note": "No change since June 18. Homepage news cards still: Seventh Wave of Special Guests (newest), Badges Are on Their Way, More Guests, Fifth Wave. No Aspen/Ekos/Turner/Maisel anywhere on the page. Still no Aspen panel, booth number, or Ekos exclusive listed. WebSearch for 'SDCC 2026 Aspen Comics panel' and 'SDCC 2026 exclusives Ekos Aspen' returned only 2023-2025 material and general SDCC press; no 2026 Aspen/Ekos panel or exclusive confirmed. A booth #2320 figure appears in 2023/2024 coverage and is NOT confirmed for 2026."
+        },
+        {
+          "slug": "all-others",
+          "label": "Confirmed",
+          "note": "No changes: ekos-team (9 leaders), ekos-faq (2023 auction content), ekos-auction (still 'Deployment Paused'), aspen-comics, aspen-news (still mirrors homepage), aspen-store (same 6 featured products, same prices), store-ekos-v1-hc ($50 In Stock, scoped pre-Quick-View check), store-ekos-genesis-hc ($150 In Stock), ks-vol2 (942 backers / $148,653 / goal $50,000 / last updated June 5 / latest post still Update #24 '100% Fulfillment Achieved!!!'), ks-vol1 (1,768 / $238,102), backerkit-vol2 (297% of $50,000)."
+        }
+      ]
+    },
+    {
       "date": "2026-06-18",
       "time_pt": "2026-06-18 11:20 PDT",
       "type": "scheduled",
@@ -212,6 +239,10 @@
     "https://leagueofcomicgeeks.com/comics/series/119252/ekos",
     "https://www.youtube.com/watch?v=rdRS0esCU_w",
     "https://bleedingcool.com/comics/elon-musk-calls-david-maisels-new-comics-universe-ekos-cool/",
-    "https://comicbook.com/comics/news/david-maisel-talks-bringing-ekos-to-life-kickstarter-creating-dream-aspen-crossover/"
+    "https://comicbook.com/comics/news/david-maisel-talks-bringing-ekos-to-life-kickstarter-creating-dream-aspen-crossover/",
+    "https://getyourcomicon.co.uk/blog/2026/06/16/clover-press-expands-the-dc-art-of-line-with-new-hardcover-celebrating-artist-michael-turner/",
+    "https://comicbookclublive.com/2025/10/20/exclusive-ekos-volume-2-cover-alexander-lozano/",
+    "https://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/100669-what-to-expect-at-san-diego-comic-con-2026.html",
+    "https://sdccblog.com/2026/06/psa-san-diego-comic-con-2026-exclusives-panels-more/"
   ]
 }
