@@ -1,6 +1,33 @@
 {
   "runs": [
     {
+      "date": "2026-06-25",
+      "time_pt": "2026-06-25 08:00 PDT",
+      "type": "scheduled",
+      "items": [
+        {
+          "slug": "comic-con",
+          "label": "Confirmed",
+          "note": "CHANGE: comic-con.org homepage now shows 'Announcing the Eighth Group of Special Guests for Comic-Con 2026' (~23 hours old, approx June 24). Eighth Wave = Eisner Hall of Famers Denys Cowan, Bud Plant, Mike Royer, Maggie Thompson, joining the previously announced 34 creators (38 total). NO Aspen Comics or Ekos/Turner/Maisel names. Still no Aspen panel, booth number, or Ekos exclusive listed. Snapshot updated. WebSearch for SDCC 2026 Aspen/Ekos panel and exclusives returned only 2025 material and general SDCC exclusive aggregators (fancon.ai, preternia, sdccblog Mondo/what-to-expect); no 2026 Aspen/Ekos panel or exclusive confirmed."
+        },
+        {
+          "slug": "all-others",
+          "label": "Confirmed",
+          "note": "No changes: ekos-team (9 leaders), ekos-faq (2023 auction content), ekos-auction (still 'Deployment Paused'), aspen-comics, aspen-news (still mirrors homepage), aspen-store (same 6 featured products, same prices), store-ekos-v1-hc ($50 In Stock, scoped pre-Quick-View check), store-ekos-genesis-hc ($150 In Stock), ks-vol2 (942 backers / $148,653 / goal $50,000 / last updated June 5 / latest post still Update #24 '100% Fulfillment Achieved!!!'; comments ticked 131->133, engagement only), ks-vol1 (1,768 / $238,102 / last updated Nov 18 2025), backerkit-vol2 (297% of $50,000)."
+        },
+        {
+          "slug": "social",
+          "label": "Confirmed",
+          "note": "X profile pages loaded (logged-out timelines show 'hasn't posted', i.e. no posts visible). Bios captured and UNCHANGED from June 22: @AspenComics bio still '... DC ART OF MICHAEL TURNER now live on Kickstarter!' (tinyurl.com/dcmichaelturner). @Mythos_Studios bio still 'New Ekos Universe launching Sept 17th' - the STALE Sept 17 2024 line, do not treat as upcoming. No new posts, no new social findings."
+        },
+        {
+          "slug": "press",
+          "label": "Press/Unconfirmed",
+          "note": "No new press in the last 14 days. All search hits were URLs already in press_seen or older/general (2024-2025) material, plus general SDCC-exclusive aggregators with no Aspen/Ekos content. No Ekos Volume 3 campaign found. No SDCC 2026 Aspen/Ekos panel or exclusive press found. Added general SDCC 2026 aggregator URLs to press_seen to prevent resurfacing."
+        }
+      ]
+    },
+    {
       "date": "2026-06-22",
       "time_pt": "2026-06-22 08:00 PDT",
       "type": "scheduled",
@@ -243,6 +270,10 @@
     "https://getyourcomicon.co.uk/blog/2026/06/16/clover-press-expands-the-dc-art-of-line-with-new-hardcover-celebrating-artist-michael-turner/",
     "https://comicbookclublive.com/2025/10/20/exclusive-ekos-volume-2-cover-alexander-lozano/",
     "https://www.publishersweekly.com/pw/by-topic/industry-news/trade-shows-events/article/100669-what-to-expect-at-san-diego-comic-con-2026.html",
-    "https://sdccblog.com/2026/06/psa-san-diego-comic-con-2026-exclusives-panels-more/"
+    "https://sdccblog.com/2026/06/psa-san-diego-comic-con-2026-exclusives-panels-more/",
+    "https://fancon.ai/sdcc/2026/panels",
+    "https://sdccblog.com/2026/06/mondo-san-diego-comic-con-2026-exclusives/",
+    "https://preternia.com/san-diego-comic-con-2026-exclusives-list/",
+    "https://sdccblog.com/2026/06/what-to-expect-sdcc-preparation-for-june-2026/"
   ]
 }
