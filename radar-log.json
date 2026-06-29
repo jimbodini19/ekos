@@ -1,6 +1,33 @@
 {
   "runs": [
     {
+      "date": "2026-06-29",
+      "time_pt": "2026-06-29 03:00 PDT",
+      "type": "scheduled",
+      "items": [
+        {
+          "slug": "all-sources",
+          "label": "Confirmed",
+          "note": "Quiet run. All 12 sources unchanged vs June 25 baseline. ekos-team (9 leaders Maisel->Garcia), ekos-faq (2023 auction content), ekos-auction (still 'Deployment Paused' Vercel hold), aspen-comics, aspen-news (still mirrors homepage), aspen-store (same 6 featured products, same prices), store-ekos-v1-hc ($50.00 In Stock, scoped pre-Quick-View check), store-ekos-genesis-hc ($150.00 In Stock), ks-vol2 (942 backers / $148,653 / goal $50,000 / last updated June 5 / latest post still Update #24 '100% Fulfillment Achieved!!!'; comments drifted 131->133, engagement only), ks-vol1 (1,768 / $238,102 / last updated Nov 18 2025), backerkit-vol2 (297% of $50,000)."
+        },
+        {
+          "slug": "comic-con",
+          "label": "Confirmed",
+          "note": "No change since June 25. Homepage news cards unchanged: 'Announcing the Eighth Group of Special Guests for Comic-Con 2026' (now ~5 days old) still newest, followed by Seventh Wave, Badges on Their Way, More Guests. No new guest wave since last check. Still NO Aspen Comics panel, booth number, or Ekos exclusive listed. WebSearch 'SDCC 2026 Aspen Comics panel Ekos exclusive' returned only 2024/2025 Aspen panel material (SDCC 2025 Ekos panel YouTube) and general 2026 exclusive aggregators; no 2026 Aspen/Ekos panel or exclusive confirmed. Booth #2320 from 2023/2024 coverage remains unconfirmed for 2026."
+        },
+        {
+          "slug": "social",
+          "label": "Confirmed",
+          "note": "X logged-out wall blocked both timelines (both show 'hasn't posted'). Bios captured and UNCHANGED from June 25: @AspenComics bio still '...DC ART OF MICHAEL TURNER now live on Kickstarter!' (tinyurl.com/dcmichaelturner). @Mythos_Studios bio still 'New Ekos Universe launching Sept 17th' (the STALE Sept 17 2024 line, do not treat as upcoming). No new posts, no new social findings."
+        },
+        {
+          "slug": "press",
+          "label": "Press/Unconfirmed",
+          "note": "No new press in the last 14 days. Searches ('Ekos Aspen Comics 2026', 'David Maisel Mythos Studios Ekos June 2026', 'SDCC 2026 Aspen Comics panel Ekos exclusive', 'Ekos Volume 3 Aspen Kickstarter') returned only URLs already in press_seen or older/general 2024-2025 material. No Ekos Volume 3 campaign found. No SDCC 2026 Aspen/Ekos panel or exclusive press found. Added one older bleedingfool 'new version of Ekos' article to press_seen to prevent resurfacing."
+        }
+      ]
+    },
+    {
       "date": "2026-06-25",
       "time_pt": "2026-06-25 08:00 PDT",
       "type": "scheduled",
@@ -274,6 +301,7 @@
     "https://fancon.ai/sdcc/2026/panels",
     "https://sdccblog.com/2026/06/mondo-san-diego-comic-con-2026-exclusives/",
     "https://preternia.com/san-diego-comic-con-2026-exclusives-list/",
-    "https://sdccblog.com/2026/06/what-to-expect-sdcc-preparation-for-june-2026/"
+    "https://sdccblog.com/2026/06/what-to-expect-sdcc-preparation-for-june-2026/",
+    "https://bleedingfool.com/comics/marvel-studios-co-founder-producing-new-version-of-ekos-comic-from-aspen/"
   ]
 }
