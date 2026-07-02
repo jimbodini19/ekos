@@ -1,6 +1,33 @@
 {
   "runs": [
     {
+      "date": "2026-07-02",
+      "time_pt": "2026-07-02 08:00 PDT",
+      "type": "scheduled",
+      "items": [
+        {
+          "slug": "comic-con",
+          "label": "Confirmed",
+          "note": "CHANGED since June 29. comic-con.org homepage now shows 'Announcing the Final Group of Special Guests for 2026' (~July 1) meaning the guest list is complete for the year, plus 'Toucan Tip #1' and 'The Toucan Tip-Off for Comic-Con 2026' (countdown/prep series has begun). None of the final guest wave lists Aspen Comics or Ekos creators. Still NO Aspen panel, booth number, or Ekos exclusive. Full programming schedule not yet posted. WebSearch 'SDCC 2026 Aspen Comics panel Ekos exclusive' and 'Aspen Comics Ekos Comic-Con 2026 booth panel exclusive' returned only 2024/2025 material (SDCC 2025 Ekos panel, booth #2320 from prior years) already in press_seen; no 2026 Aspen/Ekos panel or exclusive confirmed."
+        },
+        {
+          "slug": "all-other-sources",
+          "label": "Confirmed",
+          "note": "Quiet. 11 non-comic-con sources unchanged vs baseline. ekos-team (9 leaders Maisel->Garcia), ekos-faq (2023 auction content), ekos-auction (still 'Deployment Paused' Vercel hold), aspen-comics, aspen-news (still mirrors homepage), aspen-store (same 6 featured products, same prices), store-ekos-v1-hc ($50.00 In Stock, scoped pre-Quick-View check), store-ekos-genesis-hc ($150.00 In Stock), ks-vol2 (942 backers / $148,653 / goal $50,000 / last updated June 5 / 24 updates / 133 comments / latest post Update #24 '100% Fulfillment Achieved!!!' June 5), ks-vol1 (1,768 / $238,102 / last updated Nov 18 2025), backerkit-vol2 (297% of $50,000, 942 backers, avg pledge $157.81)."
+        },
+        {
+          "slug": "social",
+          "label": "Confirmed",
+          "note": "X logged-out wall blocked both timelines (both show 'hasn't posted'). Bios captured and UNCHANGED: @AspenComics bio still '...DC ART OF MICHAEL TURNER now live on Kickstarter!' (tinyurl.com/dcmichaelturner). @Mythos_Studios bio still 'New Ekos Universe launching Sept 17th' (stale Sept date, linktr.ee/mythosstudios). Fallback WebSearch surfaced no new posts from either account."
+        },
+        {
+          "slug": "press",
+          "label": "Press",
+          "note": "No new press URLs. Searches ('Ekos Aspen Comics July 2026', 'David Maisel Mythos Studios Ekos 2026', 'Ekos Volume 2 OR Volume 3 Aspen announcement') returned only URLs already in press_seen (bleedingcool, comicbook.com, superherohype, hollywoodreporter, fanboyfactor, updates.kickstarter, comicbookclublive, bleedingfool, youtube rdRS0esCU_w, leagueofcomicgeeks, getyourcomicon Clover Press Turner book). press_seen unchanged at 28."
+        }
+      ]
+    },
+    {
       "date": "2026-06-29",
       "time_pt": "2026-06-29 03:00 PDT",
       "type": "scheduled",
